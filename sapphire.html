@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sapphire Website</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+        integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="./sapphire.css">
+</head>
+
+<body>
+    <header>
+        <div class="navigation-bar">
+            <div class="nav-logo"></div>
+            <div class="nav-input"> <input type="text" placeholder="FIND YOUR FAVORITES" class="input"> <i
+                    class="fas fa-search search-icon"></i> </div>
+            <div class="side-icon">
+                <div class="nav-delivery"><i class="fas fa-truck"></i></div>
+                <div class="nav-login"><i class="fas fa-user"></i></div>
+                <div class="nav-cart"><i class="fas fa-shopping-cart"></i></div>
+            </div>
+            <div class="menu-icon" onclick="toggleMenu()"> 
+                <i class="fas fa-bars"></i>
+        </div>
+        <div class="nav-option">
+            <a href="#hero-section">Home</a>
+            <a href="#images">About</a>
+            <a href="#shop-category">Services</a>
+            <a href="#contact">Contact</a>
+            <a href="#">WOMAN</a>
+            <a href="#">MAN</a>
+            <a href="#">KIDS</a>
+            <a href="#">BEAUTY</a>
+            <a href="#">ACCESSORIES</a>
+            <a href="#">THE EDIT</a>
+
+        </div>
+    </header>
+
+
+
+    <div class="hero-section" id="hero-section">
+    </div>
+    <div class="images" id="images">
+        <div class="whats-new">
+            WHAT'S
+            NEW
+        </div>
+        <div class="box1-image1">
+            <h3>Monochrome</h3>
+        </div>
+
+        <div class="box1-image2">
+            <h3>Classics</h3>
+        </div>
+
+        <div class="box1-image3">
+            <h3>Sustainable</h3>
+        </div>
+
+        <div class="box1-image4">
+            <h3>Eobassed</h3>
+        </div>
+
+        <div class="box1-image5">
+            <h3>Day To Day Ⅲ</h3>
+        </div>
+
+        <div class="box1-image6">
+            <h3>Men</h3>
+        </div>
+    </div>
+    <div class="shop-category" id="shop-category">
+        <div class="title">
+            <span class="span-title">SHOP BY CATEGORY</span>
+        </div>
+        <div class="second-box-images">
+            <div class="second-box-image2">
+                <span class="image-span">UNSTITCHED</span>
+            </div>
+
+            <div class="second-box-image3">
+                <span class="image-span">READY TO WEAR</span>
+            </div>
+
+            <div class="second-box-image4">
+                <span class="image-span">WEST</span>
+            </div>
+
+            <div class="second-box-image5">
+                <span class="image-span">SLEEPWEAR</span>
+            </div>
+        </div>
+    </div>
+
+    <div class="testimonial-container">
+        <div class="title">
+            <span class="span-title">TESTIMONIAL</span>
+        </div>
+        <div class="testimonial-card"> <img src="./images/first-box-image-1.avif" alt="Customer 1">
+            <h3>khan</h3>
+            <p>"This is the best shopping site I've ever used. Great products and fast shipping!"</p>
+        </div>
+        <div class="testimonial-card"> <img src="./images/first-box-image-1.avif" alt="Customer 2">
+            <h3>Babar Azam</h3>
+            <p>"Excellent customer service and fantastic prices. Highly recommend to everyone!"</p>
+        </div>
+        <div class="testimonial-card"> <img src="./images/first-box-image-1.avif" alt="Customer 3">
+            <h3>Hafsa Aftab</h3>
+            <p>"Unique products you can't find elsewhere. I'll definitely be shopping here again!"</p>
+        </div>
+    </div>
+
+    <section id="contact">
+        <h2 class="con-head">Contact Us</h2>
+        <form>
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" required></textarea>
+            <button type="submit">Submit</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2023 Responsive Web Page. All rights reserved.</p>
+    </footer>
+    <!-- <div class="trending-catergory">
+    <div class="trending-title">
+        <span class="span-trending">TRENDING</span>
+    </div>
+
+    <div class="third-box-images">
+        <div class="third-box-image1">
+         <span class="third-box-span">EMBROIDERED LAWN SHIRT</span>
+         <P>Rs 2490.00</P>
+         <div class="shopping-icon">
+            <i class="fa-solid fa-bag-shopping"></i>
+         </div>
+        </div>
+    
+        <div class="third-box-image2">
+            <span class="third-box-span">3 PIECE -</span>
+            <span class="third-box-span1">EMBROIDERED COTTON</span>
+            <span class="third-box-span1">SUIT </span>
+            <P>Rs 11990.00</P>
+            <div class="shopping-icon">
+                <i class="fa-solid fa-bag-shopping"></i>
+             </div>
+                       </div>
+      
+           <div class="third-box-image3">
+            <span class="third-box-span">EMBROIDERED </span>
+            <span class="third-box-span1">CAMBRIC SHIRT</span>
+            <P>Rs 6490.00</P>
+            <div class="shopping-icon">
+                <i class="fa-solid fa-bag-shopping"></i>
+             </div>
+           </div>
+            
+           <div class="third-box-image4">
+            <span class="third-box-span">EMBROIDERED COTTON</span>
+            <span class="third-box-span1">SHIRT</span>
+            <P>Rs 6990.00</P>
+            <div class="shopping-icon">
+                <i class="fa-solid fa-bag-shopping"></i>
+             </div>
+           </div>
+        </div>      
+</div> -->
+</body>
+<script> function toggleMenu() {
+        var navOptions = document.querySelector('.nav-option'); navOptions.classList.toggle('active');
+    }
+
+</script>
+
+</html>
